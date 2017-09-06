@@ -4,9 +4,13 @@
 
 
 .center {
-  position: relative;
-  top: 20%;
-  left:15%;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
 }
 
 .side {
@@ -18,8 +22,12 @@ transition: 1s ease;
 }
 
 .grow img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
 transition: 1s ease;
+}
+
+.nice{
+  font-size: 250%;
 }
