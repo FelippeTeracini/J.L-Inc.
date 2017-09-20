@@ -62,9 +62,27 @@ transition: 1s ease;
 }
 
 .parallax-container {
-    height: 400px;
+    height: 600px;
   }
 
 .aboutfont {
     font-size: 20px;
+}
+
+.perfil{
+  position: absolute;
+  left: 50%;
+  width: 350px;
+  height: 350px;
+  margin-top: -300px; /* Half the height */
+  margin-left: -175px;
+}
+.icons{
+  height: 50px;
+}
+
+.iconlink{
+  position: absolute;
+  margin-top: 17px;
+  margin-left:17px;
 }
