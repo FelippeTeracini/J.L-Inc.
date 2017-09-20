@@ -60,3 +60,11 @@ transition: 1s ease;
 .teamphoto {
   height:350px;
 }
+
+.parallax-container {
+    height: 400px;
+  }
+
+.aboutfont {
+    font-size: 20px;
+}
